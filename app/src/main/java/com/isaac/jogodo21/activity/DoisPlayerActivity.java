@@ -32,6 +32,8 @@ public class DoisPlayerActivity extends AppCompatActivity {
     private int valorTotalPlay2 = 0;
     private  RandomClass rnd = new RandomClass();
 
+    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
