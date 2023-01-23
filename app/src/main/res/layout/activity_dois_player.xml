@@ -27,13 +27,13 @@
         app:srcCompat="@drawable/background_conta_total" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/linearPlay1"
+        android:id="@+id/linearPlay1Cor"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:gravity="bottom|center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/linearPlay2"
+        app:layout_constraintEnd_toStartOf="@+id/linearPlay2Cor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
@@ -98,7 +98,7 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <LinearLayout
-        android:id="@+id/linearPlay2"
+        android:id="@+id/linearPlay2Cor"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:gravity="bottom|center"
